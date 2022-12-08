@@ -1,10 +1,13 @@
-int main(){
-   char let=0;
-    cin>>let;
-    if(input(let)){
-        cout<<let;
-    }else{
-        cout<<"errore";
+int main() {
+    char valore;
+    char esito;
+    cin>>valore;
+    if(letteraono(valore)==true) {
+        esito=conversionelettere(valore);
+        cout<<esito;
+    }
+    else if (letteraono(valore)==false){
+        cout<<"errore"<<endl;
     }
     return 0;
 }
