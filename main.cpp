@@ -1,5 +1,10 @@
-#include <iostream>
-
 int main(){
-  return 0;
+   char let=0;
+    cin>>let;
+    if(input(let)){
+        cout<<let;
+    }else{
+        cout<<"errore";
+    }
+    return 0;
 }
