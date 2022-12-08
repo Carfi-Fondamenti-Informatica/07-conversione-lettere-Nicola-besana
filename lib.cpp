@@ -1,1 +1,3 @@
 
+
+bool input (char &let);
